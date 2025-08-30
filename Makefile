@@ -1,8 +1,8 @@
 CFLAGS = -std=c++17 -O2
-LDFLAGS = -lglfw3 -lGL -lX11 -lpthread -lXrandr -lXi -ldl
+LDFLAGS = -lglfw -lGL -lX11 -lpthread -lXrandr -lXi -ldl
 
-VulkanTest: main.cpp
-	g++ $(CFLAGS) -o test main.cpp $(LDFLAGS)
+OpenGLTest: main.cpp
+	g++ $(CFLAGS) -o test main.cpp glad/src/glad.c $(LDFLAGS)
 
 .PHONY: test clean
 
