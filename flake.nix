@@ -16,11 +16,11 @@
           glfw3
           gnumake
 
-          xorg.libX11
-          xorg.libXrandr
-          xorg.libXcursor
-          xorg.libXi
-          xorg.libXxf86vm
+          libX11
+          libXrandr
+          libXcursor
+          libXi
+          libXxf86vm
         ];
       };
     }
