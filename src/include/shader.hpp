@@ -1,6 +1,6 @@
 #pragma once
 
-#include "glad/include/glad/glad.h"
+#include "../glad/include/glad/glad.h"
 
 #include <string>
 #include <fstream>
